@@ -1,1 +1,45 @@
- 
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main class="container">
+        <section class = "logo">
+            <img class="logo_image" src="assets/logos/Logo.svg" alt="Logo de la empresa">
+        </section>
+        <section class="campo_texto">
+            <input type="text" id="inputText" class="campo_texto_input_text" aria-label="Campo de texto para encriptar" placeholder="Ingrese el texto aquí ⭣">
+            <div class = "campo_texto_solo_minusculas">
+                <img class = "campo_texto_solo_minusculas_icon" src = "assets/icons/bi_exclamation-circle-fill.svg">
+                <div class = "campo_texto_solo_minusculas_texto">
+                    Solo letras minúsuculas y sin acentos
+                </div>
+            </div>
+            <div class="campo_texto_button">
+                <button type="button" onclick="encriptarTexto()" class="campo_texto_button_encriptar">Encriptar</button>
+                <button type="button" onclick="otraFuncion()" class="campo_texto_button_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="campo_resultado">
+            <div class="campo_resultado_contenido">
+                <img class="campo_resultado_contenido_imagen" src="assets/images/Muñeco.svg" alt="Imagen de un muñeco">
+                <div class="campo_resultado_contenido_texto">
+                    <div class="campo_resultado_contenido_texto1">
+                        Ningún mensaje fue encontrado
+                    </div>
+                    <div class="campo_resultado_contenido_texto2">
+                        Ingresa el texto que desees encriptar o desencriptar
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
