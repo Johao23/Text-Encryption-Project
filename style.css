@@ -52,8 +52,6 @@ body {
 
 .campo_texto_input_text:focus {
     outline: none; /* Desactiva el contorno predeterminado */
-    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
-    /* background-color: #d0e4f7; */
 }
 
 .campo_texto_solo_minusculas {
