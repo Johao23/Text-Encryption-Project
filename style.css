@@ -105,6 +105,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 24px 32px #00000010 ;
 }
 
 .campo_resultado_no {
@@ -156,7 +157,8 @@ body {
     font-size: 24px;
     /* font-size: 2rem; */
     resize: none;
-    overflow-wrap: break-word;
+    word-break: break-word;
+    overflow: auto;
 }
 
 .campo_resultado_copy_button {
