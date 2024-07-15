@@ -27,7 +27,7 @@ function desencriptarTexto() {
     var texto = document.getElementById("inputText").value;
 
     if (texto.trim() === "") {
-        // campoResultadoInicial();
+        campoResultadoInicial();
     } else {
         var textoDesencriptado = texto.replace(/enter/g, "e")
                                     .replace(/imes/g, "i")
