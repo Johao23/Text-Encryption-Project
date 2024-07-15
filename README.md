@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto forma parte de uno de los retos del programa ONE de Oracle y Alura. El proyecto es una aplicación web que permite encriptar y desencriptar texto utilizando una lógica simple de sustitución de caracteres. La aplicación está construida con HTML, CSS y JavaScript, y cuenta con una interfaz de usuario amigable que asegura una buena experiencia tanto en dispositivos de escritorio como en dispositivos móviles.
+Este proyecto es una aplicación web que permite encriptar y desencriptar texto utilizando una lógica simple de sustitución de caracteres. La aplicación está construida con HTML, CSS y JavaScript, y cuenta con una interfaz de usuario amigable que asegura una buena experiencia tanto en dispositivos de escritorio como en dispositivos móviles.
 
 ## Funcionalidades
 
@@ -45,7 +45,7 @@ El texto "hoberlai mufatndober" se desencriptará como "hola mundo".
 
 ## Challenge
 
-Este proyecto es parte del programa One de Oracle y la plataforma Alura. El challenge consiste en crear una aplicación web que cumpla con las funcionalidades descritas anteriormente.
+Este proyecto es parte del programa One de Oracle y la plataforma Alura. El challenge consiste en crear una aplicación web que cumpla con las funcionalidades descritas anteriormente y que pongamos en practica lo que se ha aprendido en la primera parte del programa.
 
 ## Contribución
 
