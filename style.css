@@ -234,4 +234,13 @@ body {
         align-items: center;
         gap: 24px;
     }
+    
+    .campo_resultado {
+        gap: 0px;
+    }
+
+    .campo_resultado_contenido_resultado {
+        height: auto;
+        max-height: 456px;
+    }
 }
