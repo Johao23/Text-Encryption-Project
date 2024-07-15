@@ -10,36 +10,39 @@
     <header></header>
     <main class="container">
         <section class = "logo">
-            <img class="logo_image" src="assets/logos/Logo.svg" alt="Logo de la empresa">
+            <img class="logo_image" src="assets/logos/Group 3.svg" alt="Logo de la empresa">
         </section>
         <section class="campo_texto">
-            <input type="text" id="inputText" class="campo_texto_input_text" aria-label="Campo de texto para encriptar" placeholder="Ingrese el texto aquí ⭣">
+            <textarea type="text" id="inputText" class="campo_texto_input_text" aria-label="Campo de texto para encriptar" placeholder="Ingrese el texto aquí ⭣"></textarea>
             <div class = "campo_texto_solo_minusculas">
                 <img class = "campo_texto_solo_minusculas_icon" src = "assets/icons/bi_exclamation-circle-fill.svg">
-                <div class = "campo_texto_solo_minusculas_texto">
+                <p class = "campo_texto_solo_minusculas_texto">
                     Solo letras minúsuculas y sin acentos
-                </div>
+                </p>
             </div>
             <div class="campo_texto_button">
-                <button type="button" onclick="encriptarTexto()" class="campo_texto_button_encriptar">Encriptar</button>
-                <button type="button" onclick="otraFuncion()" class="campo_texto_button_desencriptar">Desencriptar</button>
+                <button id = "botonEncriptar" type="button" onclick="encriptarTexto()" class="campo_texto_button_encriptar">Encriptar</button>
+                <button id = "botonDesencriptar" type="button" onclick="desencriptarTexto()" class="campo_texto_button_desencriptar">Desencriptar</button>
             </div>
         </section>
         <section class="campo_resultado">
-            <div class="campo_resultado_contenido">
-                <img class="campo_resultado_contenido_imagen" src="assets/images/Muñeco.svg" alt="Imagen de un muñeco">
-                <div class="campo_resultado_contenido_texto">
-                    <div class="campo_resultado_contenido_texto1">
+            <div id = "sinResultado" class = "campo_resultado_no">
+                <img id = "sinResultadoImagen" class="campo_resultado_no_imagen" src="assets/images/Muñeco.svg" alt="Imagen de un muñeco">
+                <div id = "sinResultadoTexto1" class="campo_resultado_no_texto">
+                    <p id = "sinResultadoTexto" class="campo_resultado_no_texto1">
                         Ningún mensaje fue encontrado
-                    </div>
-                    <div class="campo_resultado_contenido_texto2">
+                    </p>
+                    <p id = "sinResultadoTexto2" class="campo_resultado_no_texto2">
                         Ingresa el texto que desees encriptar o desencriptar
-                    </div>
+                    </p>
                 </div>
+            </div>
+            <div id = "conResultado" class = "campo_resultado_contenido" hidden>
+                <p id = "resultadoTexto" class = "campo_resultado_contenido_resultado" hidden></p>
+                <button id="copyButton" class="campo_resultado_copy_button" onclick="copiarTexto()" hidden>Copiar</button>
             </div>
         </section>
     </main>
-
     <script src="app.js" defer></script>
 </body>
 </html>
